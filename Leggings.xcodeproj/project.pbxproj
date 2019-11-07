@@ -19,6 +19,7 @@
 		04156CD123725BA700625950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04156CD023725BA700625950 /* Preview Assets.xcassets */; };
 		04156CD423725BA700625950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04156CD223725BA700625950 /* LaunchScreen.storyboard */; };
 		04156CDA23725C5300625950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04156CB323725B3500625950 /* Assets.xcassets */; };
+		04156CDC23726A8900625950 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04156CDB23726A8900625950 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		04156CD023725BA700625950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04156CD323725BA700625950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04156CD523725BA700625950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04156CDB23726A8900625950 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		04156CAC23725B3400625950 /* Leggings */ = {
 			isa = PBXGroup;
 			children = (
+				04156CDB23726A8900625950 /* LoginStoryboard.storyboard */,
 				04156CAD23725B3400625950 /* AppDelegate.swift */,
 				04156CAF23725B3400625950 /* SceneDelegate.swift */,
 				04156CB123725B3400625950 /* ContentView.swift */,
@@ -208,6 +211,7 @@
 				04156CBA23725B3500625950 /* LaunchScreen.storyboard in Resources */,
 				04156CB723725B3500625950 /* Preview Assets.xcassets in Resources */,
 				04156CB423725B3500625950 /* Assets.xcassets in Resources */,
+				04156CDC23726A8900625950 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
